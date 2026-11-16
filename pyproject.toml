@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling>=1.27", "editables>=0.5"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fair-hc"
+version = "0.1.0"
+description = "Auditable top-down fair hierarchical clustering and reproducible experiments"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["numpy>=2.1", "scipy>=1.14", "matplotlib>=3.9"]
+
+[project.scripts]
+fair-hc = "fair_hc.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8.3", "ruff>=0.9", "build>=1.2"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fair_hc"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/fair_hc", "pyproject.toml", "README.md", "LICENSE", "CITATION.cff", "requirements.lock"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

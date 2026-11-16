@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "signature": "3105d2bba28c817256783751c7b6d4f91715d91e4e3546715b0d65c8dfb01544",
+  "config": {
+    "version": 1,
+    "name": "smoke",
+    "experiments": [
+      {
+        "dataset": "synthetic",
+        "sizes": [
+          64
+        ],
+        "seeds": [
+          0
+        ]
+      },
+      {
+        "dataset": "adult",
+        "sizes": [
+          64
+        ],
+        "seeds": [
+          0
+        ]
+      },
+      {
+        "dataset": "bank",
+        "sizes": [
+          64
+        ],
+        "seeds": [
+          0
+        ]
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "dependencies": {
+      "fair-hc": "0.1.0",
+      "numpy": "2.3.3",
+      "scipy": "1.16.3",
+      "matplotlib": "3.10.8"
+    },
+    "source_hash": "e9ccf4e4d18af8f2a9c7bb8225905f39ae1fb20017a0ebce2b5654143addbd1b"
+  },
+  "inputs": {
+    "('adult', 'married')": "5b00264637dbfec36bdeaab5676b0b309ff9eb788d63554ca0a249491c86603d",
+    "('bank', 'married')": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d"
+  },
+  "runs": {
+    "bd5a81ca4082fe8007c7": {
+      "status": "complete",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "average",
+      "path": "runs/bd5a81ca4082fe8007c7/metrics.json",
+      "sample_id": "d297c000cbfd5873648d",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "87166a6995ce30dd4522": {
+      "status": "complete",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "make_fair",
+      "path": "runs/87166a6995ce30dd4522/metrics.json",
+      "sample_id": "d297c000cbfd5873648d",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "7b4bc7c4059eff103250": {
+      "status": "complete",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "star",
+      "path": "runs/7b4bc7c4059eff103250/metrics.json",
+      "sample_id": "d297c000cbfd5873648d",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "b7145c2401986203b460": {
+      "status": "complete",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "splitting_only",
+      "path": "runs/b7145c2401986203b460/metrics.json",
+      "sample_id": "d297c000cbfd5873648d",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "6946c24ee931cd65ff7b": {
+      "status": "complete",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "random_fold",
+      "path": "runs/6946c24ee931cd65ff7b/metrics.json",
+      "sample_id": "d297c000cbfd5873648d",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "d0a7b07a6363cdf223cd": {
+      "status": "complete",
+      "spec": {
+        "dataset": "adult",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "average",
+      "path": "runs/d0a7b07a6363cdf223cd/metrics.json",
+      "sample_id": "bd4ee31398611ecf3bf2",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "41679793371fad91f36f": {
+      "status": "complete",
+      "spec": {
+        "dataset": "adult",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "make_fair",
+      "path": "runs/41679793371fad91f36f/metrics.json",
+      "sample_id": "bd4ee31398611ecf3bf2",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "7c748138f9df1eacb63c": {
+      "status": "complete",
+      "spec": {
+        "dataset": "adult",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "star",
+      "path": "runs/7c748138f9df1eacb63c/metrics.json",
+      "sample_id": "bd4ee31398611ecf3bf2",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "01eb612a5cb3fed1ba06": {
+      "status": "complete",
+      "spec": {
+        "dataset": "adult",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "splitting_only",
+      "path": "runs/01eb612a5cb3fed1ba06/metrics.json",
+      "sample_id": "bd4ee31398611ecf3bf2",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "6bf9ba8202702f3abd95": {
+      "status": "complete",
+      "spec": {
+        "dataset": "adult",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "random_fold",
+      "path": "runs/6bf9ba8202702f3abd95/metrics.json",
+      "sample_id": "bd4ee31398611ecf3bf2",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "5c2bbd40d25a6c67a83a": {
+      "status": "complete",
+      "spec": {
+        "dataset": "bank",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "average",
+      "path": "runs/5c2bbd40d25a6c67a83a/metrics.json",
+      "sample_id": "dc765b3e9829599bc970",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "5dc1840c419d273d000e": {
+      "status": "complete",
+      "spec": {
+        "dataset": "bank",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "make_fair",
+      "path": "runs/5dc1840c419d273d000e/metrics.json",
+      "sample_id": "dc765b3e9829599bc970",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "09eaaedfd667a91acade": {
+      "status": "complete",
+      "spec": {
+        "dataset": "bank",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "star",
+      "path": "runs/09eaaedfd667a91acade/metrics.json",
+      "sample_id": "dc765b3e9829599bc970",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "7ae0108fc40aeb749ab8": {
+      "status": "complete",
+      "spec": {
+        "dataset": "bank",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "splitting_only",
+      "path": "runs/7ae0108fc40aeb749ab8/metrics.json",
+      "sample_id": "dc765b3e9829599bc970",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "c49fa712f54c06fdc662": {
+      "status": "complete",
+      "spec": {
+        "dataset": "bank",
+        "n": 64,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "random_fold",
+      "path": "runs/c49fa712f54c06fdc662/metrics.json",
+      "sample_id": "dc765b3e9829599bc970",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    }
+  },
+  "profile": "smoke",
+  "memory_budget_gib": 8.0,
+  "status_counts": {
+    "complete": 15
+  },
+  "complete": true,
+  "elapsed_this_invocation_seconds": 0.05969945783726871
+}

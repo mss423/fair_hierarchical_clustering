@@ -1,0 +1,5060 @@
+{
+  "run_id": "32737e4ad6c362096e9e",
+  "sample_id": "33f39d9bf7ecc5b56186",
+  "spec": {
+    "dataset": "adult",
+    "n": 4096,
+    "seed": 3,
+    "parameters": null
+  },
+  "method": "make_fair",
+  "parameters": {
+    "h": 16,
+    "k": 2,
+    "epsilon": 0.015625
+  },
+  "metrics": {
+    "cost": 678548.7454280668,
+    "n": 4096,
+    "palette": [
+      "White",
+      "other"
+    ],
+    "global_proportions": [
+      0.85986328125,
+      0.14013671875
+    ],
+    "cluster_count": 149,
+    "depth": 5,
+    "terminal_sizes": [
+      59,
+      60,
+      62,
+      62,
+      59,
+      60,
+      63,
+      16,
+      15,
+      16,
+      17,
+      62,
+      62,
+      63,
+      72,
+      63,
+      16,
+      16,
+      16,
+      16,
+      65,
+      67,
+      239,
+      59,
+      60,
+      14,
+      17,
+      17,
+      16,
+      15,
+      16,
+      17,
+      16,
+      62,
+      63,
+      67,
+      68,
+      63,
+      16,
+      15,
+      16,
+      17,
+      67,
+      68,
+      59,
+      59,
+      15,
+      15,
+      17,
+      17,
+      16,
+      16,
+      16,
+      16,
+      59,
+      60,
+      14,
+      17,
+      17,
+      16,
+      14,
+      16,
+      18,
+      16,
+      63,
+      15,
+      15,
+      17,
+      17,
+      16,
+      16,
+      17,
+      17,
+      67,
+      63,
+      15,
+      16,
+      17,
+      16,
+      15,
+      16,
+      16,
+      17,
+      72,
+      61,
+      14,
+      17,
+      17,
+      16,
+      65,
+      67,
+      62,
+      63,
+      16,
+      15,
+      16,
+      17,
+      69,
+      62,
+      15,
+      16,
+      16,
+      17,
+      17,
+      16,
+      16,
+      17,
+      67,
+      71,
+      71,
+      74,
+      75
+    ],
+    "max_representation_error": 0.1376410590277778,
+    "max_size_imbalance": 0.03125,
+    "proportion_ranges": {
+      "White": [
+        0.7222222222222222,
+        0.9411764705882353
+      ],
+      "other": [
+        0.058823529411764705,
+        0.2777777777777778
+      ]
+    },
+    "min_binary_balance": 0.0625,
+    "mixed_leaf_child_clusters": 0,
+    "bound_violation_clusters": 0,
+    "bounds": {},
+    "cost_ratio_to_average": 2.1294864532561877
+  },
+  "diagnostics": {
+    "parameters": {
+      "h": 16,
+      "k": 2,
+      "epsilon": 0.015625,
+      "palette": [
+        "White",
+        "other"
+      ],
+      "folding": "density"
+    },
+    "operations": {
+      "start": 1,
+      "move": 1658,
+      "split": 37,
+      "fold": 74,
+      "terminal": 112,
+      "finish": 1
+    },
+    "terminal_cases": [
+      {
+        "node": 8377,
+        "size": 62,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8371,
+        "size": 62,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8374,
+        "size": 63,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8380,
+        "size": 72,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8502,
+        "size": 59,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8511,
+        "size": 62,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8508,
+        "size": 60,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8505,
+        "size": 62,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8631,
+        "size": 65,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8628,
+        "size": 67,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8625,
+        "size": 63,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8743,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 8746,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 8740,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 8737,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 8803,
+        "size": 63,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8806,
+        "size": 59,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 8894,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 8897,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 8900,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 8903,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 8809,
+        "size": 60,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9035,
+        "size": 74,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9044,
+        "size": 71,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9038,
+        "size": 75,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9041,
+        "size": 71,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9182,
+        "size": 61,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9179,
+        "size": 65,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9188,
+        "size": 67,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9287,
+        "size": 14,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9290,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9281,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9284,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9349,
+        "size": 69,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9352,
+        "size": 62,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9346,
+        "size": 63,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9457,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9460,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9463,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9454,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9524,
+        "size": 62,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9594,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9597,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9588,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9591,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9518,
+        "size": 67,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9667,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9673,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9664,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9670,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9786,
+        "size": 67,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9872,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9875,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9866,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9869,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9795,
+        "size": 63,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 9936,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9939,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9942,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 9933,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10002,
+        "size": 59,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10008,
+        "size": 60,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10090,
+        "size": 14,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10093,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10096,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10087,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10146,
+        "size": 14,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10149,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10140,
+        "size": 18,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10143,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10214,
+        "size": 59,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10208,
+        "size": 59,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10304,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10301,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10307,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10298,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10362,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10356,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10359,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10353,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10421,
+        "size": 63,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10494,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10497,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10500,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10491,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10543,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10546,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10549,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10552,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10418,
+        "size": 72,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10690,
+        "size": 67,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10681,
+        "size": 62,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10684,
+        "size": 63,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10687,
+        "size": 68,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10631,
+        "size": 239,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10851,
+        "size": 63,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10860,
+        "size": 67,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 10947,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10944,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10953,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10950,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 10857,
+        "size": 68,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 11030,
+        "size": 59,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 11033,
+        "size": 60,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 11118,
+        "size": 14,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 11121,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 11124,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 11115,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 11175,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 11178,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 11169,
+        "size": 17,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 11172,
+        "size": 16,
+        "reason": "below_paper_size_threshold"
+      }
+    ],
+    "splits": [
+      {
+        "root": 8190,
+        "sizes": [
+          244,
+          250,
+          251,
+          251,
+          251,
+          251,
+          253,
+          253,
+          253,
+          254,
+          254,
+          255,
+          256,
+          256,
+          256,
+          308
+        ],
+        "imbalance": 0.0126953125
+      },
+      {
+        "root": 8253,
+        "sizes": [
+          60,
+          60,
+          60,
+          61,
+          61,
+          61,
+          61,
+          61,
+          61,
+          61,
+          61,
+          61,
+          62,
+          62,
+          77,
+          77
+        ],
+        "imbalance": 0.013964746772591852
+      },
+      {
+        "root": 8319,
+        "sizes": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          20,
+          20
+        ],
+        "imbalance": 0.014720077220077218
+      },
+      {
+        "root": 8310,
+        "sizes": [
+          14,
+          14,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          17,
+          18
+        ],
+        "imbalance": 0.01157407407407407
+      },
+      {
+        "root": 8316,
+        "sizes": [
+          14,
+          15,
+          15,
+          15,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          20,
+          20
+        ],
+        "imbalance": 0.014720077220077218
+      },
+      {
+        "root": 8634,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8313,
+        "sizes": [
+          14,
+          14,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          19,
+          19
+        ],
+        "imbalance": 0.014735772357723581
+      },
+      {
+        "root": 8800,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8247,
+        "sizes": [
+          61,
+          62,
+          63,
+          63,
+          63,
+          63,
+          65,
+          65,
+          65,
+          66,
+          66,
+          66,
+          66,
+          66,
+          82,
+          83
+        ],
+        "imbalance": 0.015434272300469482
+      },
+      {
+        "root": 8977,
+        "sizes": [
+          17,
+          17,
+          17,
+          17,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          21,
+          22
+        ],
+        "imbalance": 0.01310137457044673
+      },
+      {
+        "root": 8974,
+        "sizes": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          19,
+          20
+        ],
+        "imbalance": 0.015321011673151752
+      },
+      {
+        "root": 9185,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8983,
+        "sizes": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          19,
+          20
+        ],
+        "imbalance": 0.01501937984496124
+      },
+      {
+        "root": 9343,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8980,
+        "sizes": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          20,
+          20
+        ],
+        "imbalance": 0.014720077220077218
+      },
+      {
+        "root": 9521,
+        "sizes": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.01325757575757576
+      },
+      {
+        "root": 9515,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8250,
+        "sizes": [
+          59,
+          60,
+          60,
+          61,
+          61,
+          62,
+          62,
+          62,
+          62,
+          62,
+          63,
+          63,
+          63,
+          63,
+          76,
+          77
+        ],
+        "imbalance": 0.013287401574803154
+      },
+      {
+        "root": 9726,
+        "sizes": [
+          15,
+          15,
+          15,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          19,
+          20
+        ],
+        "imbalance": 0.014423076923076927
+      },
+      {
+        "root": 9789,
+        "sizes": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.01325757575757576
+      },
+      {
+        "root": 9792,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 9729,
+        "sizes": [
+          14,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          19,
+          19
+        ],
+        "imbalance": 0.014423076923076927
+      },
+      {
+        "root": 10005,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 9999,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 9735,
+        "sizes": [
+          14,
+          14,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          19,
+          19
+        ],
+        "imbalance": 0.014735772357723581
+      },
+      {
+        "root": 10205,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10211,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 9732,
+        "sizes": [
+          15,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          20,
+          20
+        ],
+        "imbalance": 0.013545627376425853
+      },
+      {
+        "root": 10424,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10427,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8256,
+        "sizes": [
+          59,
+          59,
+          59,
+          60,
+          60,
+          60,
+          60,
+          61,
+          62,
+          62,
+          63,
+          63,
+          63,
+          63,
+          77,
+          77
+        ],
+        "imbalance": 0.013888888888888895
+      },
+      {
+        "root": 10625,
+        "sizes": [
+          15,
+          15,
+          15,
+          15,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          20,
+          20
+        ],
+        "imbalance": 0.014423076923076927
+      },
+      {
+        "root": 10628,
+        "sizes": [
+          15,
+          15,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          20,
+          20
+        ],
+        "imbalance": 0.013835877862595422
+      },
+      {
+        "root": 10854,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10622,
+        "sizes": [
+          14,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          19,
+          19
+        ],
+        "imbalance": 0.014423076923076927
+      },
+      {
+        "root": 11027,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 11024,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.015625
+      }
+    ],
+    "folds": [
+      {
+        "root": 8190,
+        "color": "White",
+        "groups": [
+          [
+            8047,
+            7894
+          ],
+          [
+            8147,
+            8143
+          ],
+          [
+            8013,
+            8022
+          ],
+          [
+            8131,
+            8188
+          ],
+          [
+            8070,
+            8088
+          ],
+          [
+            8068,
+            8107
+          ],
+          [
+            8140,
+            8134
+          ],
+          [
+            8029,
+            8205
+          ]
+        ],
+        "folded": [
+          8223,
+          8226,
+          8229,
+          8232,
+          8235,
+          8238,
+          8241,
+          8244
+        ],
+        "sizes": [
+          495,
+          503,
+          505,
+          504,
+          504,
+          562,
+          511,
+          512
+        ],
+        "imbalance": 0.01220703125
+      },
+      {
+        "root": 8190,
+        "color": "other",
+        "groups": [
+          [
+            8244,
+            8232
+          ],
+          [
+            8241,
+            8229
+          ],
+          [
+            8238,
+            8226
+          ],
+          [
+            8235,
+            8223
+          ]
+        ],
+        "folded": [
+          8247,
+          8250,
+          8253,
+          8256
+        ],
+        "sizes": [
+          1007,
+          1065,
+          1016,
+          1008
+        ],
+        "imbalance": 0.010009765625
+      },
+      {
+        "root": 8253,
+        "color": "White",
+        "groups": [
+          [
+            7476,
+            8254
+          ],
+          [
+            7736,
+            7716
+          ],
+          [
+            7753,
+            7970
+          ],
+          [
+            8080,
+            7669
+          ],
+          [
+            7952,
+            7570
+          ],
+          [
+            7540,
+            8255
+          ],
+          [
+            7459,
+            7696
+          ],
+          [
+            7360,
+            7507
+          ]
+        ],
+        "folded": [
+          8286,
+          8289,
+          8292,
+          8295,
+          8298,
+          8301,
+          8304,
+          8307
+        ],
+        "sizes": [
+          121,
+          121,
+          121,
+          138,
+          138,
+          123,
+          123,
+          122
+        ],
+        "imbalance": 0.012040714995034757
+      },
+      {
+        "root": 8253,
+        "color": "other",
+        "groups": [
+          [
+            8307,
+            8298
+          ],
+          [
+            8304,
+            8292
+          ],
+          [
+            8301,
+            8289
+          ],
+          [
+            8295,
+            8286
+          ]
+        ],
+        "folded": [
+          8310,
+          8313,
+          8316,
+          8319
+        ],
+        "sizes": [
+          259,
+          243,
+          259,
+          246
+        ],
+        "imbalance": 0.0086891757696127
+      },
+      {
+        "root": 8319,
+        "color": "White",
+        "groups": [
+          [
+            8321,
+            8320
+          ],
+          [
+            6936,
+            7125
+          ],
+          [
+            7028,
+            8033
+          ],
+          [
+            7225,
+            8040
+          ],
+          [
+            6508,
+            6967
+          ],
+          [
+            6574,
+            6758
+          ],
+          [
+            8337,
+            7210
+          ],
+          [
+            8212,
+            7743
+          ]
+        ],
+        "folded": [
+          8347,
+          8350,
+          8353,
+          8356,
+          8359,
+          8362,
+          8365,
+          8368
+        ],
+        "sizes": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          32,
+          32,
+          40
+        ],
+        "imbalance": 0.029440154440154437
+      },
+      {
+        "root": 8319,
+        "color": "other",
+        "groups": [
+          [
+            8368,
+            8353
+          ],
+          [
+            8365,
+            8356
+          ],
+          [
+            8362,
+            8350
+          ],
+          [
+            8359,
+            8347
+          ]
+        ],
+        "folded": [
+          8371,
+          8374,
+          8377,
+          8380
+        ],
+        "sizes": [
+          62,
+          62,
+          63,
+          72
+        ],
+        "imbalance": 0.027992277992277992
+      },
+      {
+        "root": 8310,
+        "color": "White",
+        "groups": [
+          [
+            8312,
+            7266
+          ],
+          [
+            6792,
+            7314
+          ],
+          [
+            7836,
+            6947
+          ],
+          [
+            8282,
+            6718
+          ],
+          [
+            6685,
+            6953
+          ],
+          [
+            7173,
+            6845
+          ],
+          [
+            6861,
+            8311
+          ],
+          [
+            6873,
+            6797
+          ]
+        ],
+        "folded": [
+          8478,
+          8481,
+          8484,
+          8487,
+          8490,
+          8493,
+          8496,
+          8499
+        ],
+        "sizes": [
+          29,
+          32,
+          30,
+          30,
+          30,
+          30,
+          30,
+          32
+        ],
+        "imbalance": 0.006687242798353921
+      },
+      {
+        "root": 8310,
+        "color": "other",
+        "groups": [
+          [
+            8499,
+            8484
+          ],
+          [
+            8496,
+            8487
+          ],
+          [
+            8490,
+            8481
+          ],
+          [
+            8493,
+            8478
+          ]
+        ],
+        "folded": [
+          8502,
+          8505,
+          8508,
+          8511
+        ],
+        "sizes": [
+          59,
+          62,
+          60,
+          62
+        ],
+        "imbalance": 0.007201646090534974
+      },
+      {
+        "root": 8316,
+        "color": "White",
+        "groups": [
+          [
+            6560,
+            8281
+          ],
+          [
+            7036,
+            6858
+          ],
+          [
+            7840,
+            8317
+          ],
+          [
+            6898,
+            6817
+          ],
+          [
+            6662,
+            8115
+          ],
+          [
+            6645,
+            8318
+          ],
+          [
+            7347,
+            7032
+          ],
+          [
+            7818,
+            7990
+          ]
+        ],
+        "folded": [
+          8601,
+          8604,
+          8607,
+          8610,
+          8613,
+          8616,
+          8619,
+          8622
+        ],
+        "sizes": [
+          34,
+          31,
+          31,
+          31,
+          32,
+          36,
+          32,
+          32
+        ],
+        "imbalance": 0.013996138996138996
+      },
+      {
+        "root": 8316,
+        "color": "other",
+        "groups": [
+          [
+            8622,
+            8613
+          ],
+          [
+            8619,
+            8607
+          ],
+          [
+            8616,
+            8604
+          ],
+          [
+            8610,
+            8601
+          ]
+        ],
+        "folded": [
+          8625,
+          8628,
+          8631,
+          8634
+        ],
+        "sizes": [
+          65,
+          67,
+          63,
+          64
+        ],
+        "imbalance": 0.00868725868725867
+      },
+      {
+        "root": 8634,
+        "color": "White",
+        "groups": [
+          [
+            5981,
+            4503
+          ],
+          [
+            8636,
+            6199
+          ],
+          [
+            8635,
+            5861
+          ],
+          [
+            7846,
+            6150
+          ],
+          [
+            4281,
+            7706
+          ],
+          [
+            4772,
+            6326
+          ],
+          [
+            5533,
+            6636
+          ],
+          [
+            4709,
+            5240
+          ]
+        ],
+        "folded": [
+          8713,
+          8716,
+          8719,
+          8722,
+          8725,
+          8728,
+          8731,
+          8734
+        ],
+        "sizes": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 8634,
+        "color": "other",
+        "groups": [
+          [
+            8734,
+            8731
+          ],
+          [
+            8722,
+            8713
+          ],
+          [
+            8725,
+            8716
+          ],
+          [
+            8728,
+            8719
+          ]
+        ],
+        "folded": [
+          8737,
+          8740,
+          8743,
+          8746
+        ],
+        "sizes": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 8313,
+        "color": "White",
+        "groups": [
+          [
+            7023,
+            7532
+          ],
+          [
+            7375,
+            5994
+          ],
+          [
+            8315,
+            8764
+          ],
+          [
+            6670,
+            6762
+          ],
+          [
+            7393,
+            6980
+          ],
+          [
+            6862,
+            6811
+          ],
+          [
+            6928,
+            7739
+          ],
+          [
+            8314,
+            6450
+          ]
+        ],
+        "folded": [
+          8776,
+          8779,
+          8782,
+          8785,
+          8788,
+          8791,
+          8794,
+          8797
+        ],
+        "sizes": [
+          29,
+          29,
+          30,
+          30,
+          34,
+          30,
+          30,
+          34
+        ],
+        "imbalance": 0.01321138211382114
+      },
+      {
+        "root": 8313,
+        "color": "other",
+        "groups": [
+          [
+            8797,
+            8785
+          ],
+          [
+            8791,
+            8782
+          ],
+          [
+            8794,
+            8776
+          ],
+          [
+            8788,
+            8779
+          ]
+        ],
+        "folded": [
+          8800,
+          8803,
+          8806,
+          8809
+        ],
+        "sizes": [
+          63,
+          59,
+          64,
+          60
+        ],
+        "imbalance": 0.010162601626016288
+      },
+      {
+        "root": 8800,
+        "color": "White",
+        "groups": [
+          [
+            6444,
+            8801
+          ],
+          [
+            4606,
+            5949
+          ],
+          [
+            5741,
+            6238
+          ],
+          [
+            8278,
+            5919
+          ],
+          [
+            4672,
+            5413
+          ],
+          [
+            4685,
+            5948
+          ],
+          [
+            4671,
+            5900
+          ],
+          [
+            8802,
+            5312
+          ]
+        ],
+        "folded": [
+          8870,
+          8873,
+          8876,
+          8879,
+          8882,
+          8885,
+          8888,
+          8891
+        ],
+        "sizes": [
+          8,
+          7,
+          8,
+          8,
+          9,
+          8,
+          8,
+          8
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8800,
+        "color": "other",
+        "groups": [
+          [
+            8891,
+            8879
+          ],
+          [
+            8888,
+            8882
+          ],
+          [
+            8873,
+            8885
+          ],
+          [
+            8876,
+            8870
+          ]
+        ],
+        "folded": [
+          8894,
+          8897,
+          8900,
+          8903
+        ],
+        "sizes": [
+          16,
+          15,
+          16,
+          17
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8247,
+        "color": "White",
+        "groups": [
+          [
+            8210,
+            7608
+          ],
+          [
+            7623,
+            7617
+          ],
+          [
+            8249,
+            8248
+          ],
+          [
+            7514,
+            7520
+          ],
+          [
+            8139,
+            8186
+          ],
+          [
+            8151,
+            8043
+          ],
+          [
+            8169,
+            8170
+          ],
+          [
+            7825,
+            7962
+          ]
+        ],
+        "folded": [
+          8950,
+          8953,
+          8956,
+          8959,
+          8962,
+          8965,
+          8968,
+          8971
+        ],
+        "sizes": [
+          126,
+          128,
+          129,
+          126,
+          129,
+          130,
+          132,
+          165
+        ],
+        "imbalance": 0.02992957746478872
+      },
+      {
+        "root": 8247,
+        "color": "other",
+        "groups": [
+          [
+            8971,
+            8959
+          ],
+          [
+            8968,
+            8956
+          ],
+          [
+            8965,
+            8953
+          ],
+          [
+            8962,
+            8950
+          ]
+        ],
+        "folded": [
+          8974,
+          8977,
+          8980,
+          8983
+        ],
+        "sizes": [
+          291,
+          257,
+          258,
+          259
+        ],
+        "imbalance": 0.023239436619718334
+      },
+      {
+        "root": 8977,
+        "color": "White",
+        "groups": [
+          [
+            7819,
+            6998
+          ],
+          [
+            8181,
+            7793
+          ],
+          [
+            7494,
+            8978
+          ],
+          [
+            7790,
+            7945
+          ],
+          [
+            7449,
+            7930
+          ],
+          [
+            8152,
+            8110
+          ],
+          [
+            7286,
+            7406
+          ],
+          [
+            8073,
+            8979
+          ]
+        ],
+        "folded": [
+          9011,
+          9014,
+          9017,
+          9020,
+          9023,
+          9026,
+          9029,
+          9032
+        ],
+        "sizes": [
+          38,
+          35,
+          35,
+          35,
+          40,
+          36,
+          36,
+          36
+        ],
+        "imbalance": 0.01245704467353953
+      },
+      {
+        "root": 8977,
+        "color": "other",
+        "groups": [
+          [
+            9032,
+            9023
+          ],
+          [
+            9026,
+            9017
+          ],
+          [
+            9029,
+            9014
+          ],
+          [
+            9020,
+            9011
+          ]
+        ],
+        "folded": [
+          9035,
+          9038,
+          9041,
+          9044
+        ],
+        "sizes": [
+          74,
+          71,
+          75,
+          71
+        ],
+        "imbalance": 0.0077319587628865705
+      },
+      {
+        "root": 8974,
+        "color": "White",
+        "groups": [
+          [
+            6709,
+            8976
+          ],
+          [
+            7198,
+            7074
+          ],
+          [
+            6416,
+            6854
+          ],
+          [
+            7143,
+            8975
+          ],
+          [
+            6887,
+            7064
+          ],
+          [
+            7135,
+            6277
+          ],
+          [
+            7664,
+            7552
+          ],
+          [
+            6737,
+            7327
+          ]
+        ],
+        "folded": [
+          9155,
+          9158,
+          9161,
+          9164,
+          9167,
+          9170,
+          9173,
+          9176
+        ],
+        "sizes": [
+          30,
+          34,
+          31,
+          31,
+          31,
+          32,
+          36,
+          32
+        ],
+        "imbalance": 0.015077821011673154
+      },
+      {
+        "root": 8974,
+        "color": "other",
+        "groups": [
+          [
+            9173,
+            9164
+          ],
+          [
+            9176,
+            9161
+          ],
+          [
+            9170,
+            9158
+          ],
+          [
+            9167,
+            9155
+          ]
+        ],
+        "folded": [
+          9179,
+          9182,
+          9185,
+          9188
+        ],
+        "sizes": [
+          61,
+          65,
+          67,
+          64
+        ],
+        "imbalance": 0.01264591439688717
+      },
+      {
+        "root": 9185,
+        "color": "White",
+        "groups": [
+          [
+            9151,
+            9187
+          ],
+          [
+            5943,
+            6137
+          ],
+          [
+            6144,
+            5790
+          ],
+          [
+            6536,
+            4840
+          ],
+          [
+            5668,
+            5820
+          ],
+          [
+            5656,
+            5677
+          ],
+          [
+            6707,
+            4536
+          ],
+          [
+            9186,
+            5513
+          ]
+        ],
+        "folded": [
+          9257,
+          9260,
+          9263,
+          9266,
+          9269,
+          9272,
+          9275,
+          9278
+        ],
+        "sizes": [
+          6,
+          9,
+          8,
+          8,
+          8,
+          8,
+          8,
+          9
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 9185,
+        "color": "other",
+        "groups": [
+          [
+            9278,
+            9263
+          ],
+          [
+            9275,
+            9266
+          ],
+          [
+            9272,
+            9269
+          ],
+          [
+            9260,
+            9257
+          ]
+        ],
+        "folded": [
+          9281,
+          9284,
+          9287,
+          9290
+        ],
+        "sizes": [
+          14,
+          17,
+          17,
+          16
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 8983,
+        "color": "White",
+        "groups": [
+          [
+            7076,
+            6323
+          ],
+          [
+            6623,
+            8985
+          ],
+          [
+            6941,
+            8136
+          ],
+          [
+            6775,
+            6757
+          ],
+          [
+            6805,
+            6949
+          ],
+          [
+            8175,
+            8984
+          ],
+          [
+            8124,
+            8056
+          ],
+          [
+            6722,
+            8156
+          ]
+        ],
+        "folded": [
+          9319,
+          9322,
+          9325,
+          9328,
+          9331,
+          9334,
+          9337,
+          9340
+        ],
+        "sizes": [
+          34,
+          31,
+          31,
+          31,
+          35,
+          32,
+          32,
+          32
+        ],
+        "imbalance": 0.010658914728682162
+      },
+      {
+        "root": 8983,
+        "color": "other",
+        "groups": [
+          [
+            9340,
+            9328
+          ],
+          [
+            9337,
+            9325
+          ],
+          [
+            9334,
+            9322
+          ],
+          [
+            9331,
+            9319
+          ]
+        ],
+        "folded": [
+          9343,
+          9346,
+          9349,
+          9352
+        ],
+        "sizes": [
+          69,
+          62,
+          63,
+          64
+        ],
+        "imbalance": 0.017441860465116255
+      },
+      {
+        "root": 9343,
+        "color": "White",
+        "groups": [
+          [
+            4953,
+            4710
+          ],
+          [
+            5602,
+            5544
+          ],
+          [
+            5744,
+            7482
+          ],
+          [
+            8102,
+            9315
+          ],
+          [
+            5615,
+            4904
+          ],
+          [
+            5678,
+            8146
+          ],
+          [
+            4901,
+            9344
+          ],
+          [
+            9345,
+            9316
+          ]
+        ],
+        "folded": [
+          9430,
+          9433,
+          9436,
+          9439,
+          9442,
+          9445,
+          9448,
+          9451
+        ],
+        "sizes": [
+          8,
+          7,
+          8,
+          8,
+          9,
+          8,
+          8,
+          8
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 9343,
+        "color": "other",
+        "groups": [
+          [
+            9451,
+            9433
+          ],
+          [
+            9448,
+            9436
+          ],
+          [
+            9445,
+            9439
+          ],
+          [
+            9430,
+            9442
+          ]
+        ],
+        "folded": [
+          9454,
+          9457,
+          9460,
+          9463
+        ],
+        "sizes": [
+          16,
+          15,
+          16,
+          17
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8980,
+        "color": "White",
+        "groups": [
+          [
+            6802,
+            6260
+          ],
+          [
+            7261,
+            7247
+          ],
+          [
+            7726,
+            8982
+          ],
+          [
+            7417,
+            6598
+          ],
+          [
+            7184,
+            7876
+          ],
+          [
+            8981,
+            7925
+          ],
+          [
+            6424,
+            8948
+          ],
+          [
+            8096,
+            7329
+          ]
+        ],
+        "folded": [
+          9491,
+          9494,
+          9497,
+          9500,
+          9503,
+          9506,
+          9509,
+          9512
+        ],
+        "sizes": [
+          30,
+          31,
+          35,
+          31,
+          32,
+          32,
+          32,
+          36
+        ],
+        "imbalance": 0.013996138996138996
+      },
+      {
+        "root": 8980,
+        "color": "other",
+        "groups": [
+          [
+            9512,
+            9500
+          ],
+          [
+            9509,
+            9497
+          ],
+          [
+            9506,
+            9494
+          ],
+          [
+            9503,
+            9491
+          ]
+        ],
+        "folded": [
+          9515,
+          9518,
+          9521,
+          9524
+        ],
+        "sizes": [
+          62,
+          66,
+          67,
+          64
+        ],
+        "imbalance": 0.010617760617760624
+      },
+      {
+        "root": 9521,
+        "color": "White",
+        "groups": [
+          [
+            8023,
+            6166
+          ],
+          [
+            6138,
+            9522
+          ],
+          [
+            5591,
+            9523
+          ],
+          [
+            5960,
+            5454
+          ],
+          [
+            5095,
+            6747
+          ],
+          [
+            7569,
+            6640
+          ],
+          [
+            5090,
+            6580
+          ],
+          [
+            7801,
+            6283
+          ]
+        ],
+        "folded": [
+          9564,
+          9567,
+          9570,
+          9573,
+          9576,
+          9579,
+          9582,
+          9585
+        ],
+        "sizes": [
+          8,
+          8,
+          8,
+          9,
+          8,
+          8,
+          9,
+          8
+        ],
+        "imbalance": 0.011363636363636354
+      },
+      {
+        "root": 9521,
+        "color": "other",
+        "groups": [
+          [
+            9582,
+            9579
+          ],
+          [
+            9585,
+            9567
+          ],
+          [
+            9573,
+            9570
+          ],
+          [
+            9576,
+            9564
+          ]
+        ],
+        "folded": [
+          9588,
+          9591,
+          9594,
+          9597
+        ],
+        "sizes": [
+          17,
+          16,
+          16,
+          17
+        ],
+        "imbalance": 0.007575757575757569
+      },
+      {
+        "root": 9515,
+        "color": "White",
+        "groups": [
+          [
+            9516,
+            6661
+          ],
+          [
+            5404,
+            5126
+          ],
+          [
+            9487,
+            8051
+          ],
+          [
+            5385,
+            6377
+          ],
+          [
+            6131,
+            9517
+          ],
+          [
+            7982,
+            6975
+          ],
+          [
+            6524,
+            5024
+          ],
+          [
+            4476,
+            6585
+          ]
+        ],
+        "folded": [
+          9640,
+          9643,
+          9646,
+          9649,
+          9652,
+          9655,
+          9658,
+          9661
+        ],
+        "sizes": [
+          7,
+          7,
+          8,
+          8,
+          8,
+          9,
+          8,
+          9
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 9515,
+        "color": "other",
+        "groups": [
+          [
+            9661,
+            9646
+          ],
+          [
+            9658,
+            9649
+          ],
+          [
+            9655,
+            9640
+          ],
+          [
+            9652,
+            9643
+          ]
+        ],
+        "folded": [
+          9664,
+          9667,
+          9670,
+          9673
+        ],
+        "sizes": [
+          15,
+          16,
+          16,
+          17
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8250,
+        "color": "White",
+        "groups": [
+          [
+            7777,
+            7928
+          ],
+          [
+            8207,
+            7822
+          ],
+          [
+            7886,
+            7747
+          ],
+          [
+            7557,
+            7944
+          ],
+          [
+            7964,
+            7766
+          ],
+          [
+            7791,
+            8251
+          ],
+          [
+            7914,
+            7975
+          ],
+          [
+            8252,
+            9691
+          ]
+        ],
+        "folded": [
+          9702,
+          9705,
+          9708,
+          9711,
+          9714,
+          9717,
+          9720,
+          9723
+        ],
+        "sizes": [
+          121,
+          123,
+          122,
+          124,
+          124,
+          139,
+          125,
+          138
+        ],
+        "imbalance": 0.011811023622047251
+      },
+      {
+        "root": 8250,
+        "color": "other",
+        "groups": [
+          [
+            9723,
+            9711
+          ],
+          [
+            9720,
+            9708
+          ],
+          [
+            9717,
+            9705
+          ],
+          [
+            9714,
+            9702
+          ]
+        ],
+        "folded": [
+          9726,
+          9729,
+          9732,
+          9735
+        ],
+        "sizes": [
+          260,
+          247,
+          246,
+          263
+        ],
+        "imbalance": 0.008858267716535417
+      },
+      {
+        "root": 9726,
+        "color": "White",
+        "groups": [
+          [
+            7413,
+            7786
+          ],
+          [
+            8089,
+            6745
+          ],
+          [
+            6883,
+            6621
+          ],
+          [
+            9728,
+            7301
+          ],
+          [
+            7566,
+            7541
+          ],
+          [
+            7426,
+            7307
+          ],
+          [
+            7398,
+            9727
+          ],
+          [
+            7678,
+            7528
+          ]
+        ],
+        "folded": [
+          9762,
+          9765,
+          9768,
+          9771,
+          9774,
+          9777,
+          9780,
+          9783
+        ],
+        "sizes": [
+          31,
+          31,
+          31,
+          32,
+          32,
+          32,
+          36,
+          35
+        ],
+        "imbalance": 0.01346153846153847
+      },
+      {
+        "root": 9726,
+        "color": "other",
+        "groups": [
+          [
+            9783,
+            9771
+          ],
+          [
+            9780,
+            9768
+          ],
+          [
+            9774,
+            9765
+          ],
+          [
+            9777,
+            9762
+          ]
+        ],
+        "folded": [
+          9786,
+          9789,
+          9792,
+          9795
+        ],
+        "sizes": [
+          67,
+          66,
+          63,
+          64
+        ],
+        "imbalance": 0.007692307692307693
+      },
+      {
+        "root": 9789,
+        "color": "White",
+        "groups": [
+          [
+            5181,
+            6356
+          ],
+          [
+            5629,
+            5897
+          ],
+          [
+            5257,
+            7596
+          ],
+          [
+            6425,
+            4692
+          ],
+          [
+            6345,
+            7169
+          ],
+          [
+            6593,
+            6160
+          ],
+          [
+            4823,
+            9791
+          ],
+          [
+            9790,
+            5865
+          ]
+        ],
+        "folded": [
+          9842,
+          9845,
+          9848,
+          9851,
+          9854,
+          9857,
+          9860,
+          9863
+        ],
+        "sizes": [
+          8,
+          8,
+          8,
+          8,
+          9,
+          8,
+          8,
+          9
+        ],
+        "imbalance": 0.011363636363636354
+      },
+      {
+        "root": 9789,
+        "color": "other",
+        "groups": [
+          [
+            9863,
+            9848
+          ],
+          [
+            9860,
+            9851
+          ],
+          [
+            9842,
+            9854
+          ],
+          [
+            9845,
+            9857
+          ]
+        ],
+        "folded": [
+          9866,
+          9869,
+          9872,
+          9875
+        ],
+        "sizes": [
+          16,
+          16,
+          17,
+          17
+        ],
+        "imbalance": 0.007575757575757569
+      },
+      {
+        "root": 9792,
+        "color": "White",
+        "groups": [
+          [
+            6241,
+            5007
+          ],
+          [
+            6401,
+            6631
+          ],
+          [
+            9793,
+            5524
+          ],
+          [
+            7814,
+            6635
+          ],
+          [
+            4681,
+            9760
+          ],
+          [
+            9755,
+            9761
+          ],
+          [
+            7351,
+            5891
+          ],
+          [
+            9794,
+            6664
+          ]
+        ],
+        "folded": [
+          9909,
+          9912,
+          9915,
+          9918,
+          9921,
+          9924,
+          9927,
+          9930
+        ],
+        "sizes": [
+          7,
+          7,
+          8,
+          8,
+          9,
+          8,
+          8,
+          9
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 9792,
+        "color": "other",
+        "groups": [
+          [
+            9930,
+            9912
+          ],
+          [
+            9924,
+            9918
+          ],
+          [
+            9927,
+            9921
+          ],
+          [
+            9909,
+            9915
+          ]
+        ],
+        "folded": [
+          9933,
+          9936,
+          9939,
+          9942
+        ],
+        "sizes": [
+          15,
+          15,
+          17,
+          17
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 9729,
+        "color": "White",
+        "groups": [
+          [
+            7139,
+            7055
+          ],
+          [
+            6989,
+            9731
+          ],
+          [
+            7382,
+            7624
+          ],
+          [
+            9730,
+            7463
+          ],
+          [
+            7254,
+            7051
+          ],
+          [
+            7153,
+            7208
+          ],
+          [
+            7013,
+            7719
+          ],
+          [
+            6706,
+            6849
+          ]
+        ],
+        "folded": [
+          9975,
+          9978,
+          9981,
+          9984,
+          9987,
+          9990,
+          9993,
+          9996
+        ],
+        "sizes": [
+          29,
+          30,
+          30,
+          30,
+          30,
+          34,
+          30,
+          34
+        ],
+        "imbalance": 0.012651821862348173
+      },
+      {
+        "root": 9729,
+        "color": "other",
+        "groups": [
+          [
+            9996,
+            9984
+          ],
+          [
+            9987,
+            9981
+          ],
+          [
+            9990,
+            9978
+          ],
+          [
+            9993,
+            9975
+          ]
+        ],
+        "folded": [
+          9999,
+          10002,
+          10005,
+          10008
+        ],
+        "sizes": [
+          59,
+          60,
+          64,
+          64
+        ],
+        "imbalance": 0.01113360323886639
+      },
+      {
+        "root": 10005,
+        "color": "White",
+        "groups": [
+          [
+            10007,
+            9970
+          ],
+          [
+            5439,
+            6398
+          ],
+          [
+            5899,
+            7045
+          ],
+          [
+            6823,
+            7432
+          ],
+          [
+            6218,
+            7602
+          ],
+          [
+            10006,
+            7038
+          ],
+          [
+            5578,
+            6789
+          ],
+          [
+            7109,
+            7783
+          ]
+        ],
+        "folded": [
+          10063,
+          10066,
+          10069,
+          10072,
+          10075,
+          10078,
+          10081,
+          10084
+        ],
+        "sizes": [
+          6,
+          9,
+          8,
+          8,
+          8,
+          8,
+          8,
+          9
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 10005,
+        "color": "other",
+        "groups": [
+          [
+            10084,
+            10072
+          ],
+          [
+            10081,
+            10075
+          ],
+          [
+            10066,
+            10063
+          ],
+          [
+            10069,
+            10078
+          ]
+        ],
+        "folded": [
+          10087,
+          10090,
+          10093,
+          10096
+        ],
+        "sizes": [
+          14,
+          17,
+          17,
+          16
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 9999,
+        "color": "White",
+        "groups": [
+          [
+            4835,
+            5277
+          ],
+          [
+            9700,
+            7253
+          ],
+          [
+            5342,
+            7714
+          ],
+          [
+            7841,
+            4816
+          ],
+          [
+            4845,
+            6273
+          ],
+          [
+            6065,
+            9969
+          ],
+          [
+            6984,
+            6691
+          ],
+          [
+            10000,
+            10001
+          ]
+        ],
+        "folded": [
+          10116,
+          10119,
+          10122,
+          10125,
+          10128,
+          10131,
+          10134,
+          10137
+        ],
+        "sizes": [
+          6,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          10
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 9999,
+        "color": "other",
+        "groups": [
+          [
+            10137,
+            10119
+          ],
+          [
+            10134,
+            10122
+          ],
+          [
+            10131,
+            10125
+          ],
+          [
+            10116,
+            10128
+          ]
+        ],
+        "folded": [
+          10140,
+          10143,
+          10146,
+          10149
+        ],
+        "sizes": [
+          14,
+          16,
+          18,
+          16
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 9735,
+        "color": "White",
+        "groups": [
+          [
+            7164,
+            7858
+          ],
+          [
+            7312,
+            7190
+          ],
+          [
+            6927,
+            7116
+          ],
+          [
+            6644,
+            10168
+          ],
+          [
+            6413,
+            7457
+          ],
+          [
+            7711,
+            9737
+          ],
+          [
+            7394,
+            7475
+          ],
+          [
+            9736,
+            7583
+          ]
+        ],
+        "folded": [
+          10181,
+          10184,
+          10187,
+          10190,
+          10193,
+          10196,
+          10199,
+          10202
+        ],
+        "sizes": [
+          29,
+          29,
+          34,
+          30,
+          30,
+          30,
+          30,
+          34
+        ],
+        "imbalance": 0.01321138211382114
+      },
+      {
+        "root": 9735,
+        "color": "other",
+        "groups": [
+          [
+            10202,
+            10193
+          ],
+          [
+            10199,
+            10184
+          ],
+          [
+            10196,
+            10187
+          ],
+          [
+            10190,
+            10181
+          ]
+        ],
+        "folded": [
+          10205,
+          10208,
+          10211,
+          10214
+        ],
+        "sizes": [
+          59,
+          59,
+          64,
+          64
+        ],
+        "imbalance": 0.010162601626016288
+      },
+      {
+        "root": 10205,
+        "color": "White",
+        "groups": [
+          [
+            10206,
+            7092
+          ],
+          [
+            4863,
+            6596
+          ],
+          [
+            6535,
+            4979
+          ],
+          [
+            6442,
+            6236
+          ],
+          [
+            4461,
+            10175
+          ],
+          [
+            8216,
+            7000
+          ],
+          [
+            6149,
+            6713
+          ],
+          [
+            10207,
+            6315
+          ]
+        ],
+        "folded": [
+          10274,
+          10277,
+          10280,
+          10283,
+          10286,
+          10289,
+          10292,
+          10295
+        ],
+        "sizes": [
+          7,
+          7,
+          9,
+          8,
+          8,
+          8,
+          8,
+          9
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10205,
+        "color": "other",
+        "groups": [
+          [
+            10295,
+            10280
+          ],
+          [
+            10292,
+            10283
+          ],
+          [
+            10289,
+            10286
+          ],
+          [
+            10277,
+            10274
+          ]
+        ],
+        "folded": [
+          10298,
+          10301,
+          10304,
+          10307
+        ],
+        "sizes": [
+          15,
+          15,
+          17,
+          17
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10211,
+        "color": "White",
+        "groups": [
+          [
+            6418,
+            5742
+          ],
+          [
+            10213,
+            4294
+          ],
+          [
+            6454,
+            6489
+          ],
+          [
+            5036,
+            6201
+          ],
+          [
+            10212,
+            7498
+          ],
+          [
+            5390,
+            6014
+          ],
+          [
+            5883,
+            6534
+          ],
+          [
+            6497,
+            6286
+          ]
+        ],
+        "folded": [
+          10329,
+          10332,
+          10335,
+          10338,
+          10341,
+          10344,
+          10347,
+          10350
+        ],
+        "sizes": [
+          8,
+          7,
+          8,
+          8,
+          8,
+          9,
+          8,
+          8
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10211,
+        "color": "other",
+        "groups": [
+          [
+            10350,
+            10344
+          ],
+          [
+            10347,
+            10341
+          ],
+          [
+            10335,
+            10329
+          ],
+          [
+            10338,
+            10332
+          ]
+        ],
+        "folded": [
+          10353,
+          10356,
+          10359,
+          10362
+        ],
+        "sizes": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 9732,
+        "color": "White",
+        "groups": [
+          [
+            7917,
+            7652
+          ],
+          [
+            6729,
+            6742
+          ],
+          [
+            6806,
+            7088
+          ],
+          [
+            9733,
+            7304
+          ],
+          [
+            7959,
+            7295
+          ],
+          [
+            9698,
+            6779
+          ],
+          [
+            6523,
+            7043
+          ],
+          [
+            9734,
+            7564
+          ]
+        ],
+        "folded": [
+          10394,
+          10397,
+          10400,
+          10403,
+          10406,
+          10409,
+          10412,
+          10415
+        ],
+        "sizes": [
+          31,
+          32,
+          32,
+          32,
+          32,
+          32,
+          36,
+          36
+        ],
+        "imbalance": 0.011882129277566544
+      },
+      {
+        "root": 9732,
+        "color": "other",
+        "groups": [
+          [
+            10415,
+            10403
+          ],
+          [
+            10412,
+            10400
+          ],
+          [
+            10406,
+            10394
+          ],
+          [
+            10409,
+            10397
+          ]
+        ],
+        "folded": [
+          10418,
+          10421,
+          10424,
+          10427
+        ],
+        "sizes": [
+          63,
+          64,
+          64,
+          72
+        ],
+        "imbalance": 0.02376425855513309
+      },
+      {
+        "root": 10424,
+        "color": "White",
+        "groups": [
+          [
+            10426,
+            7235
+          ],
+          [
+            10425,
+            7227
+          ],
+          [
+            6827,
+            6039
+          ],
+          [
+            6655,
+            5972
+          ],
+          [
+            7438,
+            6880
+          ],
+          [
+            5998,
+            10389
+          ],
+          [
+            7705,
+            5225
+          ],
+          [
+            5697,
+            6521
+          ]
+        ],
+        "folded": [
+          10467,
+          10470,
+          10473,
+          10476,
+          10479,
+          10482,
+          10485,
+          10488
+        ],
+        "sizes": [
+          7,
+          7,
+          9,
+          8,
+          8,
+          8,
+          8,
+          9
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10424,
+        "color": "other",
+        "groups": [
+          [
+            10488,
+            10476
+          ],
+          [
+            10482,
+            10479
+          ],
+          [
+            10485,
+            10470
+          ],
+          [
+            10473,
+            10467
+          ]
+        ],
+        "folded": [
+          10491,
+          10494,
+          10497,
+          10500
+        ],
+        "sizes": [
+          15,
+          16,
+          17,
+          16
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10427,
+        "color": "White",
+        "groups": [
+          [
+            6197,
+            5692
+          ],
+          [
+            10429,
+            5675
+          ],
+          [
+            5715,
+            6158
+          ],
+          [
+            10387,
+            6063
+          ],
+          [
+            10428,
+            6099
+          ],
+          [
+            5465,
+            6282
+          ],
+          [
+            5889,
+            5083
+          ],
+          [
+            6154,
+            10391
+          ]
+        ],
+        "folded": [
+          10519,
+          10522,
+          10525,
+          10528,
+          10531,
+          10534,
+          10537,
+          10540
+        ],
+        "sizes": [
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          9,
+          9
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10427,
+        "color": "other",
+        "groups": [
+          [
+            10537,
+            10534
+          ],
+          [
+            10540,
+            10531
+          ],
+          [
+            10525,
+            10519
+          ],
+          [
+            10528,
+            10522
+          ]
+        ],
+        "folded": [
+          10543,
+          10546,
+          10549,
+          10552
+        ],
+        "sizes": [
+          15,
+          16,
+          16,
+          17
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 8256,
+        "color": "White",
+        "groups": [
+          [
+            7561,
+            7888
+          ],
+          [
+            7792,
+            8258
+          ],
+          [
+            7940,
+            8257
+          ],
+          [
+            7717,
+            7674
+          ],
+          [
+            7418,
+            7830
+          ],
+          [
+            7895,
+            7806
+          ],
+          [
+            7826,
+            8122
+          ],
+          [
+            8041,
+            7880
+          ]
+        ],
+        "folded": [
+          10598,
+          10601,
+          10604,
+          10607,
+          10610,
+          10613,
+          10616,
+          10619
+        ],
+        "sizes": [
+          122,
+          119,
+          122,
+          122,
+          120,
+          138,
+          125,
+          140
+        ],
+        "imbalance": 0.013888888888888895
+      },
+      {
+        "root": 8256,
+        "color": "other",
+        "groups": [
+          [
+            10619,
+            10607
+          ],
+          [
+            10616,
+            10604
+          ],
+          [
+            10613,
+            10601
+          ],
+          [
+            10610,
+            10598
+          ]
+        ],
+        "folded": [
+          10622,
+          10625,
+          10628,
+          10631
+        ],
+        "sizes": [
+          260,
+          239,
+          262,
+          247
+        ],
+        "imbalance": 0.012896825396825407
+      },
+      {
+        "root": 10625,
+        "color": "White",
+        "groups": [
+          [
+            7518,
+            10626
+          ],
+          [
+            6276,
+            10627
+          ],
+          [
+            7802,
+            7537
+          ],
+          [
+            7222,
+            7082
+          ],
+          [
+            6571,
+            6287
+          ],
+          [
+            6533,
+            7548
+          ],
+          [
+            7270,
+            6784
+          ],
+          [
+            8015,
+            7572
+          ]
+        ],
+        "folded": [
+          10657,
+          10660,
+          10663,
+          10666,
+          10669,
+          10672,
+          10675,
+          10678
+        ],
+        "sizes": [
+          31,
+          31,
+          31,
+          31,
+          36,
+          32,
+          32,
+          36
+        ],
+        "imbalance": 0.01346153846153847
+      },
+      {
+        "root": 10625,
+        "color": "other",
+        "groups": [
+          [
+            10678,
+            10666
+          ],
+          [
+            10672,
+            10669
+          ],
+          [
+            10675,
+            10660
+          ],
+          [
+            10663,
+            10657
+          ]
+        ],
+        "folded": [
+          10681,
+          10684,
+          10687,
+          10690
+        ],
+        "sizes": [
+          67,
+          62,
+          63,
+          68
+        ],
+        "imbalance": 0.011538461538461553
+      },
+      {
+        "root": 10628,
+        "color": "White",
+        "groups": [
+          [
+            6930,
+            7741
+          ],
+          [
+            7152,
+            10630
+          ],
+          [
+            7155,
+            6744
+          ],
+          [
+            7907,
+            7097
+          ],
+          [
+            10629,
+            8057
+          ],
+          [
+            6818,
+            6970
+          ],
+          [
+            6543,
+            7937
+          ],
+          [
+            7291,
+            6988
+          ]
+        ],
+        "folded": [
+          10827,
+          10830,
+          10833,
+          10836,
+          10839,
+          10842,
+          10845,
+          10848
+        ],
+        "sizes": [
+          31,
+          31,
+          32,
+          32,
+          36,
+          36,
+          32,
+          32
+        ],
+        "imbalance": 0.012404580152671763
+      },
+      {
+        "root": 10628,
+        "color": "other",
+        "groups": [
+          [
+            10848,
+            10833
+          ],
+          [
+            10842,
+            10836
+          ],
+          [
+            10845,
+            10830
+          ],
+          [
+            10839,
+            10827
+          ]
+        ],
+        "folded": [
+          10851,
+          10854,
+          10857,
+          10860
+        ],
+        "sizes": [
+          63,
+          67,
+          64,
+          68
+        ],
+        "imbalance": 0.009541984732824416
+      },
+      {
+        "root": 10854,
+        "color": "White",
+        "groups": [
+          [
+            5361,
+            6015
+          ],
+          [
+            7148,
+            10856
+          ],
+          [
+            10823,
+            10855
+          ],
+          [
+            6951,
+            6499
+          ],
+          [
+            5184,
+            5771
+          ],
+          [
+            5477,
+            4834
+          ],
+          [
+            10814,
+            10820
+          ],
+          [
+            5012,
+            5523
+          ]
+        ],
+        "folded": [
+          10920,
+          10923,
+          10926,
+          10929,
+          10932,
+          10935,
+          10938,
+          10941
+        ],
+        "sizes": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          9,
+          8,
+          8
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10854,
+        "color": "other",
+        "groups": [
+          [
+            10941,
+            10938
+          ],
+          [
+            10935,
+            10923
+          ],
+          [
+            10929,
+            10926
+          ],
+          [
+            10932,
+            10920
+          ]
+        ],
+        "folded": [
+          10944,
+          10947,
+          10950,
+          10953
+        ],
+        "sizes": [
+          16,
+          15,
+          16,
+          17
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 10622,
+        "color": "White",
+        "groups": [
+          [
+            7054,
+            10990
+          ],
+          [
+            6329,
+            7147
+          ],
+          [
+            7352,
+            10991
+          ],
+          [
+            10624,
+            7122
+          ],
+          [
+            6610,
+            6476
+          ],
+          [
+            7284,
+            10623
+          ],
+          [
+            7903,
+            6813
+          ],
+          [
+            7837,
+            6808
+          ]
+        ],
+        "folded": [
+          11000,
+          11003,
+          11006,
+          11009,
+          11012,
+          11015,
+          11018,
+          11021
+        ],
+        "sizes": [
+          29,
+          30,
+          34,
+          34,
+          30,
+          30,
+          30,
+          30
+        ],
+        "imbalance": 0.012651821862348173
+      },
+      {
+        "root": 10622,
+        "color": "other",
+        "groups": [
+          [
+            11021,
+            11009
+          ],
+          [
+            11015,
+            11003
+          ],
+          [
+            11018,
+            11006
+          ],
+          [
+            11012,
+            11000
+          ]
+        ],
+        "folded": [
+          11024,
+          11027,
+          11030,
+          11033
+        ],
+        "sizes": [
+          59,
+          60,
+          64,
+          64
+        ],
+        "imbalance": 0.01113360323886639
+      },
+      {
+        "root": 11027,
+        "color": "White",
+        "groups": [
+          [
+            6693,
+            11028
+          ],
+          [
+            4932,
+            11029
+          ],
+          [
+            5016,
+            6184
+          ],
+          [
+            7659,
+            4506
+          ],
+          [
+            4917,
+            5519
+          ],
+          [
+            5208,
+            5302
+          ],
+          [
+            4585,
+            7197
+          ],
+          [
+            10620,
+            7050
+          ]
+        ],
+        "folded": [
+          11091,
+          11094,
+          11097,
+          11100,
+          11103,
+          11106,
+          11109,
+          11112
+        ],
+        "sizes": [
+          6,
+          8,
+          8,
+          8,
+          9,
+          9,
+          8,
+          8
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 11027,
+        "color": "other",
+        "groups": [
+          [
+            11112,
+            11103
+          ],
+          [
+            11109,
+            11106
+          ],
+          [
+            11097,
+            11091
+          ],
+          [
+            11100,
+            11094
+          ]
+        ],
+        "folded": [
+          11115,
+          11118,
+          11121,
+          11124
+        ],
+        "sizes": [
+          14,
+          17,
+          17,
+          16
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 11024,
+        "color": "White",
+        "groups": [
+          [
+            5938,
+            11026
+          ],
+          [
+            7844,
+            5676
+          ],
+          [
+            5450,
+            6856
+          ],
+          [
+            5828,
+            5733
+          ],
+          [
+            5299,
+            7079
+          ],
+          [
+            5997,
+            7575
+          ],
+          [
+            7599,
+            5501
+          ],
+          [
+            11025,
+            5315
+          ]
+        ],
+        "folded": [
+          11145,
+          11148,
+          11151,
+          11154,
+          11157,
+          11160,
+          11163,
+          11166
+        ],
+        "sizes": [
+          7,
+          7,
+          9,
+          8,
+          8,
+          9,
+          8,
+          8
+        ],
+        "imbalance": 0.015625
+      },
+      {
+        "root": 11024,
+        "color": "other",
+        "groups": [
+          [
+            11166,
+            11148
+          ],
+          [
+            11163,
+            11151
+          ],
+          [
+            11157,
+            11154
+          ],
+          [
+            11160,
+            11145
+          ]
+        ],
+        "folded": [
+          11169,
+          11172,
+          11175,
+          11178
+        ],
+        "sizes": [
+          15,
+          16,
+          17,
+          16
+        ],
+        "imbalance": 0.015625
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "dependencies": {
+      "fair-hc": "0.1.0",
+      "numpy": "2.3.3",
+      "scipy": "1.16.3",
+      "matplotlib": "3.10.8"
+    },
+    "source_hash": "e9ccf4e4d18af8f2a9c7bb8225905f39ae1fb20017a0ebce2b5654143addbd1b"
+  },
+  "times": {
+    "preprocessing": 0.06614166591316462,
+    "construction": 0.3348858330864459,
+    "transformation": 0.21944733406417072,
+    "evaluation": 0.2532329170498997
+  },
+  "shared_stage_note": "preprocessing and construction shared across methods in this sample",
+  "peak_process_rss_bytes": 651706368,
+  "estimated_working_set_bytes": 805306368
+}

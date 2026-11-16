@@ -1,0 +1,1822 @@
+{
+  "run_id": "cf1dd236f1243e338694",
+  "sample_id": "979d1ea717bf13a82a68",
+  "spec": {
+    "dataset": "bank",
+    "n": 512,
+    "seed": 4,
+    "parameters": {
+      "h": 8,
+      "k": 2,
+      "epsilon": 0.03125
+    }
+  },
+  "method": "make_fair",
+  "parameters": {
+    "h": 8,
+    "k": 2,
+    "epsilon": 0.03125
+  },
+  "metrics": {
+    "cost": 64477.25177814209,
+    "n": 512,
+    "palette": [
+      "married",
+      "other"
+    ],
+    "global_proportions": [
+      0.6015625,
+      0.3984375
+    ],
+    "cluster_count": 45,
+    "depth": 7,
+    "terminal_sizes": [
+      28,
+      30,
+      13,
+      13,
+      8,
+      8,
+      8,
+      8,
+      31,
+      17,
+      17,
+      8,
+      8,
+      8,
+      8,
+      33,
+      28,
+      15,
+      17,
+      61,
+      71,
+      36,
+      38
+    ],
+    "max_representation_error": 0.2265625,
+    "max_size_imbalance": 0.051724137931034475,
+    "proportion_ranges": {
+      "married": [
+        0.375,
+        0.7692307692307693
+      ],
+      "other": [
+        0.23076923076923078,
+        0.625
+      ]
+    },
+    "min_binary_balance": 0.3,
+    "mixed_leaf_child_clusters": 0,
+    "bound_violation_clusters": 0,
+    "bounds": {},
+    "cost_ratio_to_average": 1.4045910065872729
+  },
+  "diagnostics": {
+    "parameters": {
+      "h": 8,
+      "k": 2,
+      "epsilon": 0.03125,
+      "palette": [
+        "married",
+        "other"
+      ],
+      "folding": "density"
+    },
+    "operations": {
+      "start": 1,
+      "move": 270,
+      "split": 22,
+      "fold": 44,
+      "terminal": 23,
+      "finish": 1
+    },
+    "terminal_cases": [
+      {
+        "node": 1132,
+        "size": 28,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 1129,
+        "size": 30,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 1197,
+        "size": 13,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1200,
+        "size": 13,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1246,
+        "size": 8,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1249,
+        "size": 8,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1271,
+        "size": 8,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1274,
+        "size": 8,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1323,
+        "size": 33,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 1383,
+        "size": 8,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1380,
+        "size": 8,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1405,
+        "size": 8,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1408,
+        "size": 8,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1435,
+        "size": 31,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 1467,
+        "size": 17,
+        "reason": "integer_bounds_infeasible"
+      },
+      {
+        "node": 1470,
+        "size": 17,
+        "reason": "integer_bounds_infeasible"
+      },
+      {
+        "node": 1528,
+        "size": 61,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 1564,
+        "size": 28,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 1597,
+        "size": 15,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1600,
+        "size": 17,
+        "reason": "integer_bounds_infeasible"
+      },
+      {
+        "node": 1625,
+        "size": 71,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 1663,
+        "size": 36,
+        "reason": "prescribed_transfer_below_one_leaf"
+      },
+      {
+        "node": 1666,
+        "size": 38,
+        "reason": "prescribed_transfer_below_one_leaf"
+      }
+    ],
+    "splits": [
+      {
+        "root": 1022,
+        "sizes": [
+          59,
+          62,
+          62,
+          62,
+          63,
+          63,
+          64,
+          77
+        ],
+        "imbalance": 0.025390625
+      },
+      {
+        "root": 1051,
+        "sizes": [
+          27,
+          29,
+          29,
+          30,
+          30,
+          30,
+          35,
+          36
+        ],
+        "imbalance": 0.021341463414634138
+      },
+      {
+        "root": 1079,
+        "sizes": [
+          13,
+          13,
+          13,
+          14,
+          14,
+          14,
+          17,
+          18
+        ],
+        "imbalance": 0.030172413793103453
+      },
+      {
+        "root": 1106,
+        "sizes": [
+          6,
+          7,
+          7,
+          7,
+          7,
+          7,
+          8,
+          9
+        ],
+        "imbalance": 0.030172413793103453
+      },
+      {
+        "root": 1103,
+        "sizes": [
+          6,
+          6,
+          7,
+          7,
+          7,
+          7,
+          9,
+          9
+        ],
+        "imbalance": 0.030172413793103453
+      },
+      {
+        "root": 1174,
+        "sizes": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4
+        ],
+        "imbalance": 0.028846153846153855
+      },
+      {
+        "root": 1171,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 1224,
+        "sizes": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1221,
+        "sizes": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1076,
+        "sizes": [
+          14,
+          14,
+          15,
+          16,
+          16,
+          16,
+          19,
+          20
+        ],
+        "imbalance": 0.028846153846153855
+      },
+      {
+        "root": 1296,
+        "sizes": [
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          9,
+          10
+        ],
+        "imbalance": 0.028846153846153855
+      },
+      {
+        "root": 1326,
+        "sizes": [
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 1355,
+        "sizes": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1358,
+        "sizes": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1299,
+        "sizes": [
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          9,
+          9
+        ],
+        "imbalance": 0.0173076923076923
+      },
+      {
+        "root": 1432,
+        "sizes": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "imbalance": 0.02205882352941177
+      },
+      {
+        "root": 1048,
+        "sizes": [
+          28,
+          30,
+          31,
+          32,
+          32,
+          32,
+          40,
+          41
+        ],
+        "imbalance": 0.029135338345864653
+      },
+      {
+        "root": 1499,
+        "sizes": [
+          14,
+          14,
+          15,
+          15,
+          15,
+          15,
+          16,
+          17
+        ],
+        "imbalance": 0.015495867768595045
+      },
+      {
+        "root": 1525,
+        "sizes": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          9,
+          9
+        ],
+        "imbalance": 0.024999999999999994
+      },
+      {
+        "root": 1567,
+        "sizes": [
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 1496,
+        "sizes": [
+          17,
+          17,
+          18,
+          18,
+          18,
+          18,
+          19,
+          20
+        ],
+        "imbalance": 0.012931034482758619
+      },
+      {
+        "root": 1628,
+        "sizes": [
+          8,
+          9,
+          9,
+          9,
+          9,
+          9,
+          10,
+          11
+        ],
+        "imbalance": 0.023648648648648657
+      }
+    ],
+    "folds": [
+      {
+        "root": 1022,
+        "color": "married",
+        "groups": [
+          [
+            1029,
+            894
+          ],
+          [
+            1021,
+            901
+          ],
+          [
+            821,
+            988
+          ],
+          [
+            942,
+            966
+          ]
+        ],
+        "folded": [
+          1036,
+          1039,
+          1042,
+          1045
+        ],
+        "sizes": [
+          122,
+          124,
+          126,
+          140
+        ],
+        "imbalance": 0.0234375
+      },
+      {
+        "root": 1022,
+        "color": "other",
+        "groups": [
+          [
+            1045,
+            1039
+          ],
+          [
+            1042,
+            1036
+          ]
+        ],
+        "folded": [
+          1048,
+          1051
+        ],
+        "sizes": [
+          246,
+          266
+        ],
+        "imbalance": 0.01953125
+      },
+      {
+        "root": 1051,
+        "color": "married",
+        "groups": [
+          [
+            1008,
+            783
+          ],
+          [
+            716,
+            1053
+          ],
+          [
+            748,
+            981
+          ],
+          [
+            1052,
+            880
+          ]
+        ],
+        "folded": [
+          1064,
+          1067,
+          1070,
+          1073
+        ],
+        "sizes": [
+          57,
+          64,
+          59,
+          66
+        ],
+        "imbalance": 0.018292682926829285
+      },
+      {
+        "root": 1051,
+        "color": "other",
+        "groups": [
+          [
+            1073,
+            1067
+          ],
+          [
+            1070,
+            1064
+          ]
+        ],
+        "folded": [
+          1076,
+          1079
+        ],
+        "sizes": [
+          116,
+          130
+        ],
+        "imbalance": 0.028455284552845517
+      },
+      {
+        "root": 1079,
+        "color": "married",
+        "groups": [
+          [
+            656,
+            1080
+          ],
+          [
+            911,
+            692
+          ],
+          [
+            1088,
+            727
+          ],
+          [
+            1081,
+            965
+          ]
+        ],
+        "folded": [
+          1091,
+          1094,
+          1097,
+          1100
+        ],
+        "sizes": [
+          27,
+          31,
+          27,
+          31
+        ],
+        "imbalance": 0.017241379310344834
+      },
+      {
+        "root": 1079,
+        "color": "other",
+        "groups": [
+          [
+            1100,
+            1094
+          ],
+          [
+            1097,
+            1091
+          ]
+        ],
+        "folded": [
+          1103,
+          1106
+        ],
+        "sizes": [
+          58,
+          58
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1106,
+        "color": "married",
+        "groups": [
+          [
+            1108,
+            906
+          ],
+          [
+            863,
+            689
+          ],
+          [
+            854,
+            589
+          ],
+          [
+            790,
+            1107
+          ]
+        ],
+        "folded": [
+          1117,
+          1120,
+          1123,
+          1126
+        ],
+        "sizes": [
+          14,
+          14,
+          14,
+          16
+        ],
+        "imbalance": 0.025862068965517238
+      },
+      {
+        "root": 1106,
+        "color": "other",
+        "groups": [
+          [
+            1126,
+            1123
+          ],
+          [
+            1120,
+            1117
+          ]
+        ],
+        "folded": [
+          1129,
+          1132
+        ],
+        "sizes": [
+          28,
+          30
+        ],
+        "imbalance": 0.017241379310344862
+      },
+      {
+        "root": 1103,
+        "color": "married",
+        "groups": [
+          [
+            962,
+            558
+          ],
+          [
+            1105,
+            849
+          ],
+          [
+            1089,
+            910
+          ],
+          [
+            891,
+            1104
+          ]
+        ],
+        "folded": [
+          1159,
+          1162,
+          1165,
+          1168
+        ],
+        "sizes": [
+          13,
+          13,
+          16,
+          16
+        ],
+        "imbalance": 0.025862068965517238
+      },
+      {
+        "root": 1103,
+        "color": "other",
+        "groups": [
+          [
+            1168,
+            1162
+          ],
+          [
+            1165,
+            1159
+          ]
+        ],
+        "folded": [
+          1171,
+          1174
+        ],
+        "sizes": [
+          26,
+          32
+        ],
+        "imbalance": 0.051724137931034475
+      },
+      {
+        "root": 1174,
+        "color": "married",
+        "groups": [
+          [
+            907,
+            575
+          ],
+          [
+            860,
+            1156
+          ],
+          [
+            1176,
+            680
+          ],
+          [
+            517,
+            1175
+          ]
+        ],
+        "folded": [
+          1185,
+          1188,
+          1191,
+          1194
+        ],
+        "sizes": [
+          7,
+          6,
+          6,
+          7
+        ],
+        "imbalance": 0.019230769230769218
+      },
+      {
+        "root": 1174,
+        "color": "other",
+        "groups": [
+          [
+            1194,
+            1185
+          ],
+          [
+            1191,
+            1188
+          ]
+        ],
+        "folded": [
+          1197,
+          1200
+        ],
+        "sizes": [
+          13,
+          13
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1171,
+        "color": "married",
+        "groups": [
+          [
+            765,
+            738
+          ],
+          [
+            1096,
+            1090
+          ],
+          [
+            814,
+            1173
+          ],
+          [
+            1172,
+            944
+          ]
+        ],
+        "folded": [
+          1209,
+          1212,
+          1215,
+          1218
+        ],
+        "sizes": [
+          7,
+          8,
+          8,
+          9
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 1171,
+        "color": "other",
+        "groups": [
+          [
+            1218,
+            1212
+          ],
+          [
+            1215,
+            1209
+          ]
+        ],
+        "folded": [
+          1221,
+          1224
+        ],
+        "sizes": [
+          16,
+          16
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1224,
+        "color": "married",
+        "groups": [
+          [
+            1225,
+            643
+          ],
+          [
+            728,
+            1233
+          ],
+          [
+            1226,
+            652
+          ],
+          [
+            601,
+            559
+          ]
+        ],
+        "folded": [
+          1234,
+          1237,
+          1240,
+          1243
+        ],
+        "sizes": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1224,
+        "color": "other",
+        "groups": [
+          [
+            1243,
+            1237
+          ],
+          [
+            1234,
+            1240
+          ]
+        ],
+        "folded": [
+          1246,
+          1249
+        ],
+        "sizes": [
+          8,
+          8
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1221,
+        "color": "married",
+        "groups": [
+          [
+            1223,
+            1258
+          ],
+          [
+            806,
+            827
+          ],
+          [
+            866,
+            833
+          ],
+          [
+            1222,
+            868
+          ]
+        ],
+        "folded": [
+          1259,
+          1262,
+          1265,
+          1268
+        ],
+        "sizes": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1221,
+        "color": "other",
+        "groups": [
+          [
+            1268,
+            1259
+          ],
+          [
+            1265,
+            1262
+          ]
+        ],
+        "folded": [
+          1271,
+          1274
+        ],
+        "sizes": [
+          8,
+          8
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1076,
+        "color": "married",
+        "groups": [
+          [
+            974,
+            956
+          ],
+          [
+            1034,
+            1033
+          ],
+          [
+            1078,
+            776
+          ],
+          [
+            704,
+            1077
+          ]
+        ],
+        "folded": [
+          1284,
+          1287,
+          1290,
+          1293
+        ],
+        "sizes": [
+          30,
+          29,
+          35,
+          36
+        ],
+        "imbalance": 0.02692307692307694
+      },
+      {
+        "root": 1076,
+        "color": "other",
+        "groups": [
+          [
+            1293,
+            1287
+          ],
+          [
+            1290,
+            1284
+          ]
+        ],
+        "folded": [
+          1296,
+          1299
+        ],
+        "sizes": [
+          65,
+          65
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1296,
+        "color": "married",
+        "groups": [
+          [
+            1297,
+            1062
+          ],
+          [
+            670,
+            585
+          ],
+          [
+            767,
+            818
+          ],
+          [
+            1298,
+            844
+          ]
+        ],
+        "folded": [
+          1311,
+          1314,
+          1317,
+          1320
+        ],
+        "sizes": [
+          15,
+          15,
+          17,
+          18
+        ],
+        "imbalance": 0.02692307692307694
+      },
+      {
+        "root": 1296,
+        "color": "other",
+        "groups": [
+          [
+            1320,
+            1314
+          ],
+          [
+            1317,
+            1311
+          ]
+        ],
+        "folded": [
+          1323,
+          1326
+        ],
+        "sizes": [
+          33,
+          32
+        ],
+        "imbalance": 0.007692307692307665
+      },
+      {
+        "root": 1326,
+        "color": "married",
+        "groups": [
+          [
+            1328,
+            650
+          ],
+          [
+            1327,
+            645
+          ],
+          [
+            858,
+            1309
+          ],
+          [
+            741,
+            529
+          ]
+        ],
+        "folded": [
+          1343,
+          1346,
+          1349,
+          1352
+        ],
+        "sizes": [
+          7,
+          8,
+          9,
+          8
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 1326,
+        "color": "other",
+        "groups": [
+          [
+            1352,
+            1346
+          ],
+          [
+            1349,
+            1343
+          ]
+        ],
+        "folded": [
+          1355,
+          1358
+        ],
+        "sizes": [
+          16,
+          16
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1355,
+        "color": "married",
+        "groups": [
+          [
+            694,
+            1342
+          ],
+          [
+            1356,
+            1367
+          ],
+          [
+            599,
+            579
+          ],
+          [
+            1357,
+            520
+          ]
+        ],
+        "folded": [
+          1368,
+          1371,
+          1374,
+          1377
+        ],
+        "sizes": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1355,
+        "color": "other",
+        "groups": [
+          [
+            1377,
+            1374
+          ],
+          [
+            1371,
+            1368
+          ]
+        ],
+        "folded": [
+          1380,
+          1383
+        ],
+        "sizes": [
+          8,
+          8
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1358,
+        "color": "married",
+        "groups": [
+          [
+            539,
+            684
+          ],
+          [
+            1392,
+            1359
+          ],
+          [
+            1319,
+            640
+          ],
+          [
+            1360,
+            801
+          ]
+        ],
+        "folded": [
+          1393,
+          1396,
+          1399,
+          1402
+        ],
+        "sizes": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1358,
+        "color": "other",
+        "groups": [
+          [
+            1399,
+            1393
+          ],
+          [
+            1402,
+            1396
+          ]
+        ],
+        "folded": [
+          1405,
+          1408
+        ],
+        "sizes": [
+          8,
+          8
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1299,
+        "color": "married",
+        "groups": [
+          [
+            954,
+            916
+          ],
+          [
+            914,
+            1300
+          ],
+          [
+            632,
+            732
+          ],
+          [
+            1301,
+            794
+          ]
+        ],
+        "folded": [
+          1420,
+          1423,
+          1426,
+          1429
+        ],
+        "sizes": [
+          15,
+          17,
+          16,
+          17
+        ],
+        "imbalance": 0.019230769230769218
+      },
+      {
+        "root": 1299,
+        "color": "other",
+        "groups": [
+          [
+            1429,
+            1423
+          ],
+          [
+            1426,
+            1420
+          ]
+        ],
+        "folded": [
+          1432,
+          1435
+        ],
+        "sizes": [
+          31,
+          34
+        ],
+        "imbalance": 0.023076923076923106
+      },
+      {
+        "root": 1432,
+        "color": "married",
+        "groups": [
+          [
+            969,
+            682
+          ],
+          [
+            1285,
+            659
+          ],
+          [
+            1433,
+            778
+          ],
+          [
+            683,
+            1434
+          ]
+        ],
+        "folded": [
+          1455,
+          1458,
+          1461,
+          1464
+        ],
+        "sizes": [
+          9,
+          8,
+          8,
+          9
+        ],
+        "imbalance": 0.01470588235294118
+      },
+      {
+        "root": 1432,
+        "color": "other",
+        "groups": [
+          [
+            1464,
+            1458
+          ],
+          [
+            1461,
+            1455
+          ]
+        ],
+        "folded": [
+          1467,
+          1470
+        ],
+        "sizes": [
+          17,
+          17
+        ],
+        "imbalance": 0.0
+      },
+      {
+        "root": 1048,
+        "color": "married",
+        "groups": [
+          [
+            879,
+            886
+          ],
+          [
+            1050,
+            991
+          ],
+          [
+            1014,
+            972
+          ],
+          [
+            1012,
+            1049
+          ]
+        ],
+        "folded": [
+          1484,
+          1487,
+          1490,
+          1493
+        ],
+        "sizes": [
+          60,
+          61,
+          72,
+          73
+        ],
+        "imbalance": 0.024436090225563922
+      },
+      {
+        "root": 1048,
+        "color": "other",
+        "groups": [
+          [
+            1493,
+            1487
+          ],
+          [
+            1490,
+            1484
+          ]
+        ],
+        "folded": [
+          1496,
+          1499
+        ],
+        "sizes": [
+          121,
+          145
+        ],
+        "imbalance": 0.045112781954887216
+      },
+      {
+        "root": 1499,
+        "color": "married",
+        "groups": [
+          [
+            1501,
+            859
+          ],
+          [
+            1500,
+            973
+          ],
+          [
+            1481,
+            742
+          ],
+          [
+            928,
+            1482
+          ]
+        ],
+        "folded": [
+          1513,
+          1516,
+          1519,
+          1522
+        ],
+        "sizes": [
+          31,
+          29,
+          30,
+          31
+        ],
+        "imbalance": 0.010330578512396688
+      },
+      {
+        "root": 1499,
+        "color": "other",
+        "groups": [
+          [
+            1522,
+            1516
+          ],
+          [
+            1519,
+            1513
+          ]
+        ],
+        "folded": [
+          1525,
+          1528
+        ],
+        "sizes": [
+          61,
+          60
+        ],
+        "imbalance": 0.004132231404958664
+      },
+      {
+        "root": 1525,
+        "color": "married",
+        "groups": [
+          [
+            1527,
+            784
+          ],
+          [
+            1491,
+            881
+          ],
+          [
+            764,
+            1526
+          ],
+          [
+            903,
+            923
+          ]
+        ],
+        "folded": [
+          1552,
+          1555,
+          1558,
+          1561
+        ],
+        "sizes": [
+          14,
+          16,
+          14,
+          16
+        ],
+        "imbalance": 0.016666666666666663
+      },
+      {
+        "root": 1525,
+        "color": "other",
+        "groups": [
+          [
+            1561,
+            1555
+          ],
+          [
+            1558,
+            1552
+          ]
+        ],
+        "folded": [
+          1564,
+          1567
+        ],
+        "sizes": [
+          28,
+          32
+        ],
+        "imbalance": 0.033333333333333326
+      },
+      {
+        "root": 1567,
+        "color": "married",
+        "groups": [
+          [
+            807,
+            1548
+          ],
+          [
+            1568,
+            1512
+          ],
+          [
+            1518,
+            698
+          ],
+          [
+            623,
+            1569
+          ]
+        ],
+        "folded": [
+          1585,
+          1588,
+          1591,
+          1594
+        ],
+        "sizes": [
+          7,
+          8,
+          8,
+          9
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 1567,
+        "color": "other",
+        "groups": [
+          [
+            1594,
+            1585
+          ],
+          [
+            1591,
+            1588
+          ]
+        ],
+        "folded": [
+          1597,
+          1600
+        ],
+        "sizes": [
+          15,
+          17
+        ],
+        "imbalance": 0.03125
+      },
+      {
+        "root": 1496,
+        "color": "married",
+        "groups": [
+          [
+            1498,
+            933
+          ],
+          [
+            1017,
+            971
+          ],
+          [
+            1497,
+            1035
+          ],
+          [
+            1611,
+            867
+          ]
+        ],
+        "folded": [
+          1613,
+          1616,
+          1619,
+          1622
+        ],
+        "sizes": [
+          35,
+          36,
+          36,
+          38
+        ],
+        "imbalance": 0.012068965517241403
+      },
+      {
+        "root": 1496,
+        "color": "other",
+        "groups": [
+          [
+            1622,
+            1616
+          ],
+          [
+            1619,
+            1613
+          ]
+        ],
+        "folded": [
+          1625,
+          1628
+        ],
+        "sizes": [
+          71,
+          74
+        ],
+        "imbalance": 0.010344827586206917
+      },
+      {
+        "root": 1628,
+        "color": "married",
+        "groups": [
+          [
+            1495,
+            734
+          ],
+          [
+            912,
+            1629
+          ],
+          [
+            917,
+            1630
+          ],
+          [
+            915,
+            984
+          ]
+        ],
+        "folded": [
+          1651,
+          1654,
+          1657,
+          1660
+        ],
+        "sizes": [
+          18,
+          18,
+          20,
+          18
+        ],
+        "imbalance": 0.020270270270270285
+      },
+      {
+        "root": 1628,
+        "color": "other",
+        "groups": [
+          [
+            1660,
+            1654
+          ],
+          [
+            1657,
+            1651
+          ]
+        ],
+        "folded": [
+          1663,
+          1666
+        ],
+        "sizes": [
+          36,
+          38
+        ],
+        "imbalance": 0.013513513513513487
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "dependencies": {
+      "fair-hc": "0.1.0",
+      "numpy": "2.3.3",
+      "scipy": "1.16.3",
+      "matplotlib": "3.10.8"
+    },
+    "source_hash": "e9ccf4e4d18af8f2a9c7bb8225905f39ae1fb20017a0ebce2b5654143addbd1b"
+  },
+  "times": {
+    "preprocessing": 0.007032375084236264,
+    "construction": 0.006601375062018633,
+    "transformation": 0.030647125095129013,
+    "evaluation": 0.004327500006183982
+  },
+  "shared_stage_note": "preprocessing and construction shared across methods in this sample",
+  "peak_process_rss_bytes": 313294848,
+  "estimated_working_set_bytes": 144703488
+}

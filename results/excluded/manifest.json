@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "signature": "b68335b19bb432d16fecf5949a7ff1af13333075c7171c4ce8be4c6b6c3a85c6",
+  "config": {
+    "version": 1,
+    "name": "excluded",
+    "experiments": [
+      {
+        "dataset": "synthetic",
+        "sizes": [
+          512
+        ],
+        "seeds": [
+          0
+        ],
+        "parameters": [
+          {
+            "h": 4,
+            "k": 2,
+            "epsilon": 0.03125
+          }
+        ]
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "dependencies": {
+      "fair-hc": "0.1.0",
+      "numpy": "2.3.3",
+      "scipy": "1.16.3",
+      "matplotlib": "3.10.8"
+    },
+    "source_hash": "e9ccf4e4d18af8f2a9c7bb8225905f39ae1fb20017a0ebce2b5654143addbd1b"
+  },
+  "inputs": {},
+  "runs": {
+    "531fe3ce69f9db297bfa": {
+      "status": "excluded",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 512,
+        "seed": 0,
+        "parameters": {
+          "h": 4,
+          "k": 2,
+          "epsilon": 0.03125
+        }
+      },
+      "method": "average",
+      "reason": "Require h divisible by k^lambda and h/k^lambda >= 2"
+    },
+    "2cd6e98bfd4fb6112f75": {
+      "status": "excluded",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 512,
+        "seed": 0,
+        "parameters": {
+          "h": 4,
+          "k": 2,
+          "epsilon": 0.03125
+        }
+      },
+      "method": "make_fair",
+      "reason": "Require h divisible by k^lambda and h/k^lambda >= 2"
+    },
+    "6a25cd1d23716ffd0e14": {
+      "status": "excluded",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 512,
+        "seed": 0,
+        "parameters": {
+          "h": 4,
+          "k": 2,
+          "epsilon": 0.03125
+        }
+      },
+      "method": "star",
+      "reason": "Require h divisible by k^lambda and h/k^lambda >= 2"
+    },
+    "f8c460a517bd722c765c": {
+      "status": "excluded",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 512,
+        "seed": 0,
+        "parameters": {
+          "h": 4,
+          "k": 2,
+          "epsilon": 0.03125
+        }
+      },
+      "method": "splitting_only",
+      "reason": "Require h divisible by k^lambda and h/k^lambda >= 2"
+    },
+    "c774b8a2351861f244db": {
+      "status": "excluded",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 512,
+        "seed": 0,
+        "parameters": {
+          "h": 4,
+          "k": 2,
+          "epsilon": 0.03125
+        }
+      },
+      "method": "random_fold",
+      "reason": "Require h divisible by k^lambda and h/k^lambda >= 2"
+    }
+  },
+  "profile": "excluded",
+  "memory_budget_gib": 8.0,
+  "status_counts": {
+    "excluded": 5
+  },
+  "complete": true,
+  "elapsed_this_invocation_seconds": 0.0005045419093221426
+}

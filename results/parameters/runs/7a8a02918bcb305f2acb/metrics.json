@@ -1,0 +1,376 @@
+{
+  "run_id": "7a8a02918bcb305f2acb",
+  "sample_id": "1fda16b89dcb13cc1b31",
+  "spec": {
+    "dataset": "adult",
+    "n": 512,
+    "seed": 9,
+    "parameters": {
+      "h": 64,
+      "k": 4,
+      "epsilon": 0.00390625
+    }
+  },
+  "method": "make_fair",
+  "parameters": {
+    "h": 64,
+    "k": 4,
+    "epsilon": 0.00390625
+  },
+  "metrics": {
+    "cost": 2034.476520439444,
+    "n": 512,
+    "palette": [
+      "White",
+      "other"
+    ],
+    "global_proportions": [
+      0.859375,
+      0.140625
+    ],
+    "cluster_count": 5,
+    "depth": 2,
+    "terminal_sizes": [
+      126,
+      127,
+      129,
+      130
+    ],
+    "max_representation_error": 0.020913461538461547,
+    "max_size_imbalance": 0.00390625,
+    "proportion_ranges": {
+      "White": [
+        0.8384615384615385,
+        0.8740157480314961
+      ],
+      "other": [
+        0.12598425196850394,
+        0.16153846153846155
+      ]
+    },
+    "min_binary_balance": 0.14414414414414414,
+    "mixed_leaf_child_clusters": 0,
+    "bound_violation_clusters": 0,
+    "bounds": {},
+    "cost_ratio_to_average": 3.186221959444728
+  },
+  "diagnostics": {
+    "parameters": {
+      "h": 64,
+      "k": 4,
+      "epsilon": 0.00390625,
+      "palette": [
+        "White",
+        "other"
+      ],
+      "folding": "density"
+    },
+    "operations": {
+      "start": 1,
+      "move": 97,
+      "split": 1,
+      "fold": 2,
+      "terminal": 4,
+      "finish": 1
+    },
+    "terminal_cases": [
+      {
+        "node": 1246,
+        "size": 126,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1253,
+        "size": 127,
+        "reason": "below_paper_size_threshold"
+      },
+      {
+        "node": 1239,
+        "size": 129,
+        "reason": "integer_bounds_infeasible"
+      },
+      {
+        "node": 1232,
+        "size": 130,
+        "reason": "integer_bounds_infeasible"
+      }
+    ],
+    "splits": [
+      {
+        "root": 1022,
+        "sizes": [
+          7,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "imbalance": 0.00390625
+      }
+    ],
+    "folds": [
+      {
+        "root": 1022,
+        "color": "White",
+        "groups": [
+          [
+            667,
+            807,
+            886,
+            853
+          ],
+          [
+            717,
+            771,
+            843,
+            839
+          ],
+          [
+            977,
+            755,
+            760,
+            864
+          ],
+          [
+            976,
+            758,
+            869,
+            870
+          ],
+          [
+            709,
+            895,
+            974,
+            862
+          ],
+          [
+            991,
+            997,
+            840,
+            940
+          ],
+          [
+            926,
+            763,
+            905,
+            910
+          ],
+          [
+            827,
+            712,
+            943,
+            955
+          ],
+          [
+            744,
+            756,
+            876,
+            837
+          ],
+          [
+            888,
+            919,
+            814,
+            699
+          ],
+          [
+            674,
+            929,
+            935,
+            1020
+          ],
+          [
+            875,
+            956,
+            916,
+            1021
+          ],
+          [
+            963,
+            951,
+            852,
+            693
+          ],
+          [
+            920,
+            901,
+            773,
+            893
+          ],
+          [
+            761,
+            863,
+            808,
+            950
+          ],
+          [
+            883,
+            831,
+            679,
+            953
+          ]
+        ],
+        "folded": [
+          1120,
+          1127,
+          1134,
+          1141,
+          1148,
+          1155,
+          1162,
+          1169,
+          1176,
+          1183,
+          1190,
+          1197,
+          1204,
+          1211,
+          1218,
+          1225
+        ],
+        "sizes": [
+          31,
+          31,
+          31,
+          33,
+          32,
+          34,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "imbalance": 0.00390625
+      },
+      {
+        "root": 1022,
+        "color": "other",
+        "groups": [
+          [
+            1225,
+            1197,
+            1162,
+            1134
+          ],
+          [
+            1218,
+            1190,
+            1169,
+            1141
+          ],
+          [
+            1204,
+            1176,
+            1127,
+            1148
+          ],
+          [
+            1211,
+            1183,
+            1120,
+            1155
+          ]
+        ],
+        "folded": [
+          1232,
+          1239,
+          1246,
+          1253
+        ],
+        "sizes": [
+          126,
+          127,
+          129,
+          130
+        ],
+        "imbalance": 0.00390625
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "dependencies": {
+      "fair-hc": "0.1.0",
+      "numpy": "2.3.3",
+      "scipy": "1.16.3",
+      "matplotlib": "3.10.8"
+    },
+    "source_hash": "e9ccf4e4d18af8f2a9c7bb8225905f39ae1fb20017a0ebce2b5654143addbd1b"
+  },
+  "times": {
+    "preprocessing": 0.0043752919882535934,
+    "construction": 0.006729917135089636,
+    "transformation": 0.017182040959596634,
+    "evaluation": 0.0037992498837411404
+  },
+  "shared_stage_note": "preprocessing and construction shared across methods in this sample",
+  "peak_process_rss_bytes": 313294848,
+  "estimated_working_set_bytes": 144703488
+}

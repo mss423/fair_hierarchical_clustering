@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "signature": "bf006975370579147e4312c35be26c83900296e82d645c965ee2f509514c6b44",
+  "config": {
+    "version": 1,
+    "name": "custom",
+    "experiments": [
+      {
+        "dataset": "synthetic",
+        "sizes": [
+          32
+        ],
+        "seeds": [
+          0
+        ]
+      }
+    ],
+    "methods": [
+      "average",
+      "examples.custom_algorithm:cluster"
+    ]
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "dependencies": {
+      "fair-hc": "0.1.0",
+      "numpy": "2.3.3",
+      "scipy": "1.16.3",
+      "matplotlib": "3.10.8"
+    },
+    "source_hash": "e9ccf4e4d18af8f2a9c7bb8225905f39ae1fb20017a0ebce2b5654143addbd1b",
+    "adapters": {
+      "examples.custom_algorithm:cluster": "b54a4cadf09f96a3c61a808276fd88040bd78786cab7cc737da50eb8c3c61a04"
+    }
+  },
+  "inputs": {},
+  "runs": {
+    "6bb4378ed0d6b00dbaa2": {
+      "status": "complete",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 32,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "average",
+      "path": "runs/6bb4378ed0d6b00dbaa2/metrics.json",
+      "sample_id": "3cb4315aeed58bb0afec",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    },
+    "345220495496e7ba71dc": {
+      "status": "complete",
+      "spec": {
+        "dataset": "synthetic",
+        "n": 32,
+        "seed": 0,
+        "parameters": null
+      },
+      "method": "examples.custom_algorithm:cluster",
+      "path": "runs/345220495496e7ba71dc/metrics.json",
+      "sample_id": "3cb4315aeed58bb0afec",
+      "parameters": {
+        "h": 16,
+        "k": 2,
+        "epsilon": 0.015625
+      }
+    }
+  },
+  "profile": "custom",
+  "memory_budget_gib": 8.0,
+  "status_counts": {
+    "complete": 2
+  },
+  "complete": true,
+  "elapsed_this_invocation_seconds": 0.006310000084340572
+}
