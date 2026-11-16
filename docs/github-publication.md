@@ -48,6 +48,32 @@ commit lands remotely in the meantime, a normal push will refuse to overwrite it
 
 After pushing, check the repository's Actions tab for the Python 3.11 and 3.13
 jobs. Local Python tests, artifact checks, and external browser checks have
-passed; GitHub-hosted CI remains to be observed. GitHub displays HTML as source;
-the offline walkthrough still opens locally. Enabling GitHub Pages is a separate
-optional publishing step.
+passed; GitHub-hosted CI remains to be observed.
+
+## Serve the interactive walkthrough with GitHub Pages
+
+The repository file view displays HTML as source. GitHub Pages serves it as a
+webpage. The self-contained `docs/demo.html` needs no application server or build.
+
+Push the Pages entry files and the updated README:
+
+```sh
+git add README.md docs/.nojekyll docs/index.html docs/github-publication.md
+git commit -m "Prepare GitHub Pages hosting for the interactive walkthrough"
+git push origin main
+```
+
+Then open the repository's [Pages settings](https://github.com/mss423/fair_hierarchical_clustering/settings/pages):
+
+1. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+2. Select branch **main** and folder **/docs**.
+3. Click **Save** and wait for the Pages deployment to finish in the Actions tab.
+
+The walkthrough URL will be
+https://mss423.github.io/fair_hierarchical_clustering/demo.html.
+The site root, https://mss423.github.io/fair_hierarchical_clustering/,
+redirects to the same demo. Publishing from `/docs` means the URL does not include
+`/docs/`. The `.nojekyll` marker keeps the HTML and other static assets unprocessed.
+Subsequent pushes changing files in `docs/` update the published site automatically.
+
+Source: [GitHub's publishing-source documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).

@@ -3,7 +3,7 @@
 An installable, auditable implementation of **MakeFair**, the top-down algorithm
 from *Fair, Polylog-Approximate Low-Cost Hierarchical Clustering* (NeurIPS 2023).
 It includes nonbinary trees, reproducible benchmarks, saved measurements, figures,
-and an [offline worked example](docs/demo.html).
+and an [interactive worked example](https://mss423.github.io/fair_hierarchical_clustering/demo.html).
 
 The refresh follows the paper and full appendix with explicit pseudocode
 corrections and finite-size terminal cases. It does **not** claim exact reproduction
@@ -29,7 +29,8 @@ pytest -q
 
 The lock pins runtime, build, and development dependencies with artifact hashes.
 For an ordinary unpinned installation, `python -m pip install .` suffices.
-Open `docs/demo.html` locally: it embeds every trace state and needs no server or
+Use the [live walkthrough](https://mss423.github.io/fair_hierarchical_clustering/demo.html),
+or open `docs/demo.html` locally: it embeds every trace state and needs no server or
 network. It includes step controls, keyboard navigation, highlighted moves and
 folds, a cluster inspector, and costs before and after the transformation.
 
